@@ -33,7 +33,7 @@ jobs:
         name: Install dependencies
 
       - name: Generate deps 🍪
-        run: pnpm run packages:generate
+        run: pnpm run generate
         env:
           CI: true
 
